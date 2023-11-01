@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AC_Account_accept_PLV__c</fullName>
+    <externalId>false</externalId>
+    <label>CCEP Open Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Open</fullName>
+                <default>false</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Temporarily Closed</fullName>
+                <default>false</default>
+                <label>Temporarily Closed</label>
+            </value>
+            <value>
+                <fullName>Permanently Closed</fullName>
+                <default>false</default>
+                <label>Permanently Closed</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>NON</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NON</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>YES</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YES</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
