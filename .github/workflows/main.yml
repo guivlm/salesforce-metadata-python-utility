@@ -30,9 +30,8 @@ jobs:
         git config user.name "Guilherme Monteiro"
         git config user.email "guivlm.sp@gmail.com"
         git add -A
+        git pull origin HEAD:main || true
         git diff --quiet && git diff --staged --quiet || (echo 'No changes to commit' ; exit 0)
-        echo 'Pulling changes'
-        git pull origin HEAD:main
         echo 'Committing changes'
         git commit -m 'Update results'
         echo 'Pushing changes'
