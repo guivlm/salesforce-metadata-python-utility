@@ -1,7 +1,0 @@
-dir_name;file_name;defaultValue;externalId;fullName;label;referenceTo;relationshipName;relationshipOrder;reparentableMasterDetail;required;trackFeedHistory;trackHistory;trackTrending;type;valueSet;writeRequiresMasterRead
-Account;AC_Account_Descision_Level__c;;false;AC_Account_Descision_Level__c;Account Descision Level;;;;;false;false;false;;Picklist;"
-        ";
-Account;AC_Account_accept_PLV__c;;false;AC_Account_accept_PLV__c;CCEP Open Status;;;;;false;false;true;;Picklist;"
-        ";
-Account_Characteristic_Data__c;Active__c;false;false;Active__c;Active;;;;;;;;false;Checkbox;;
-Account_Characteristic_Data__c;Account__c;;false;Account__c;Account;Account;Account_Characteristics_Data;0;false;;;;false;MasterDetail;;false
